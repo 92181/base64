@@ -7,5 +7,7 @@ It can be easily included with #include "bs64.h". Examples can be found in examp
 
 ```c
 // The library can used as seen here, for more examples check example.c
-unsigned char K[27]="Many hands make light work.",L[36];be(K,L,K+27);while(i<36){printf("%c",L[i]);i+=1;};printf("\n");
+unsigned char K[27]="Many hands make light work.",L[36];
+
+be(K,L,K+27);while(i<36){printf("%c",L[i]);i+=1;};printf("\n");
 ```
