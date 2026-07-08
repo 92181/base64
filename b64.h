@@ -68,11 +68,4 @@ static inline void b64i_encode(unsigned char *z,unsigned char *u,unsigned char *
 		
 		u+=4;z+=3;
 	};
-
-	#if PAD
-	if(z>o)
-	{
-		u[*z-1]=61;if(z-1>o){u[*z-2]=61;};
-	};
-	#endif
 };
